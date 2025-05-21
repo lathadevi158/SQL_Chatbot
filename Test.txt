@@ -1,0 +1,9 @@
+List all students who are from Dallas.
+Who is the head of Biology department?
+Find the total number of students in the Computer Science department.
+Show the average Maths score for students in the Biology department.
+Retrieve all students who have a phone number starting with 800.
+List the departments with fees greater than 15000.
+Find all students whose Maths score is above 85.
+Show the details of students whose names start with B.
+List students who scored below 90 in Chemistry.
