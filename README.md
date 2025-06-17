@@ -26,36 +26,36 @@ This project lets you **interact with your MySQL database using natural language
 
 ---
 
-## 📁 Project Structure
 
-.
-├── app.py # Main application script
-├── requirements.txt # Python dependencies
-├── .env # Your environment variables 
-├── README.md # Project documentation
+## 🖥️ How It Works
 
-🖥️ How It Works
-You enter a question like “List all users who signed up last week.”
+1. 🧑‍💻 You enter a question like:  
+   _“List all users who signed up last week.”_
 
-LangChain prompts the Azure OpenAI model to generate the appropriate SQL query based on your database schema.
+2. 🤖 **LangChain** prompts the **Azure OpenAI** model to generate the appropriate **SQL query** based on your database schema.
 
-The SQL is run against your MySQL database.
+3. 🗃️ The generated **SQL** is executed against your **MySQL database**.
 
-LangChain prompts the model again to translate the raw results into a human-readable answer.
+4. 🔄 **LangChain** then prompts the model again to **translate the raw SQL results** into a human-readable answer.
 
-You get a clean, relevant response in natural language.
+5. ✅ You receive a clean, concise, and relevant **natural language response**.
 
+---
 
 ▶️ Run the App
 
 streamlit run app.py
+
 Open your browser and go to: http://localhost:8501 (or Streamlit will auto-launch it).
 
+---
 
-📄 License
+📄 **License**  
 This project is licensed under the MIT License.
 
----------🙋‍♀️ Author---------
-Marpally Latha Devi,
-Prompt Engineer | Generative AI Developer,
-GitHub: lathadevi158
+---
+
+🙋‍♀️ **Author**  
+**Marpally Latha Devi**  
+Prompt Engineer | Generative AI Developer  
+GitHub: [lathadevi158](https://github.com/lathadevi158)
